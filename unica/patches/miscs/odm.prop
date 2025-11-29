@@ -1,5 +1,3 @@
-# Disable OEM unlock toggle
-ro.oem_unlock_supported=0
 # Spoof
 ro.product.model=SM-S937B
 ro.product.vendor.model=SM-S937B
