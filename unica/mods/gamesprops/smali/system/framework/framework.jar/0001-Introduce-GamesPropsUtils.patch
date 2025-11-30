@@ -439,7 +439,7 @@ index 00000000..a3dc5958
 +
 +    const-string v1, "MODEL"
 +
-+    const-string v2, "rmx2193"
++    const-string v2, "RMX5070"
 +
 +    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 +
