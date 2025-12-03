@@ -21,3 +21,5 @@ LOG_STEP_OUT
 
 rm -rf "$WORK_DIR/product/app/TrichromeLibrary"
 rm -rf "$WORK_DIR/product/app/WebViewGoogle"
+
+ls "$WORK_DIR/product/app"
