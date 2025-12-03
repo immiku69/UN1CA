@@ -19,12 +19,10 @@ DOWNLOAD_FILE "$TrichromeLibrary64_APK" "$WORK_DIR/product/$TrichromeLibrary64_P
 DOWNLOAD_FILE "$WebViewGoogle64_APK" "$WORK_DIR/product/$WebViewGoogle64_PATH"
 LOG_STEP_OUT
 
-SET_METADATA "product" "app/TrichromeLibrary64/TrichromeLibrary64.apk" 0 0 644 "u:object_r:product_app_file:s0"
-SET_METADATA "product" "app/WebViewGoogle64/WebViewGoogle64.apk" 0 0 644 "u:object_r:product_app_file:s0"
-SET_METADATA "product" "app/TrichromeLibrary64" 0 0 755 "u:object_r:product_app:s0"
-SET_METADATA "product" "app/WebViewGoogle64" 0 0 755 "u:object_r:product_app:s0"
+SET_METADATA "product" "app/TrichromeLibrary64/TrichromeLibrary64.apk" 0 0 644 "u:object_r:system_file:s0"
+SET_METADATA "product" "app/WebViewGoogle64/WebViewGoogle64.apk" 0 0 644 "u:object_r:system_file:s0"
+SET_METADATA "product" "app/TrichromeLibrary64" 0 0 755 "u:object_r:system_file:s0"
+SET_METADATA "product" "app/WebViewGoogle64" 0 0 755 "u:object_r:system_file:s0"
 
 rm -rf "$WORK_DIR/product/app/TrichromeLibrary"
 rm -rf "$WORK_DIR/product/app/WebViewGoogle"
-
-ls "$WORK_DIR/product/app"
