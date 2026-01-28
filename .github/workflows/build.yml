@@ -72,6 +72,8 @@ jobs:
         run: |
           source ./buildenv.sh --debug ${{ matrix.target }}
           ./scripts/extract_fw.sh
+          ls $FW_DIR/${TARGET_ASSERT_MODEL}_EUX/system/system/lib64
+          ls $FW_DIR/${TARGET_ASSERT_MODEL}_EUX/system/lib64
 
       - name: Build ROM
         run: |
